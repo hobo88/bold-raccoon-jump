@@ -1,6 +1,4 @@
 import { MadeWithDyad } from "@/components/made-with-dyad";
-import { Link } from "react-router-dom"; // Import Link
-import { Button } from "@/components/ui/button"; // Import Button
 
 const Index = () => {
   return (
@@ -10,11 +8,6 @@ const Index = () => {
         <p className="text-xl text-gray-600 mb-6">
           Start building your amazing project here!
         </p>
-        <Link to="/birthday-yearbook">
-          <Button className="bg-purple-600 hover:bg-purple-700 text-white text-lg px-8 py-4 rounded-lg shadow-md transition-all duration-300">
-            View Birthday Yearbook
-          </Button>
-        </Link>
       </div>
       <MadeWithDyad />
     </div>
