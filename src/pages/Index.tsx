@@ -11,7 +11,7 @@ const Index = () => {
           Start building your amazing project here!
         </p>
         <Link to="/birthday-yearbook">
-          <Button className="bg-amber-600 hover:bg-amber-700 text-white text-lg px-8 py-4 rounded-lg shadow-md transition-all duration-300">
+          <Button className="bg-purple-600 hover:bg-purple-700 text-white text-lg px-8 py-4 rounded-lg shadow-md transition-all duration-300">
             View Birthday Yearbook
           </Button>
         </Link>
